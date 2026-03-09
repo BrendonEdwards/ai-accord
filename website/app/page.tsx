@@ -39,7 +39,7 @@ export default function Home() {
             A cross-industry foundation
           </p>
           <h1 className="mb-8 text-5xl leading-tight font-bold tracking-tight text-sand-950 md:text-7xl md:leading-tight">
-            Eleven principles
+            Thirteen principles
             <br />
             for AI alignment
           </h1>
@@ -171,7 +171,7 @@ export default function Home() {
             The Framework
           </p>
           <h2 className="mb-6 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
-            The Eleven Commandments
+            The Thirteen Commandments
           </h2>
           <p className="mb-16 text-lg leading-relaxed text-sand-600">
             Each commandment is an outcome prohibition, not a method
@@ -235,13 +235,23 @@ export default function Home() {
               },
               {
                 num: "XI",
+                title: "No Mass Surveillance",
+                desc: "AI shall not be deployed for mass, indiscriminate surveillance of populations. Targeted, lawful monitoring with judicial oversight is permissible; blanket surveillance is not.",
+              },
+              {
+                num: "XII",
+                title: "Human Authority Over Life-Critical Decisions",
+                desc: "No AI shall autonomously decide whether a human lives or dies. Fully autonomous lethal weapons are prohibited. Where split-second decisions are unavoidable, the ethical framework must be human-designed and human-reviewed.",
+              },
+              {
+                num: "XIII",
                 title: "Human Rights Are the Floor",
                 desc: "No AI system shall be deployed in a manner that enables, accelerates, or obscures the violation of any right in the Universal Declaration of Human Rights.",
               },
             ].map((cmd, i) => (
               <div
                 key={cmd.num}
-                className={`flex gap-6 border-t border-sand-200 py-8 ${i === 10 ? "border-b" : ""}`}
+                className={`flex gap-6 border-t border-sand-200 py-8 ${i === 12 ? "border-b" : ""}`}
               >
                 <span className="mt-1 shrink-0 text-sm font-bold text-sand-400">
                   {cmd.num}

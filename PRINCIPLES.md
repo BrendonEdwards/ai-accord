@@ -144,7 +144,35 @@ Multi-stakeholder governance is slow, contentious, and vulnerable to capture by 
 
 ---
 
-## XI. Human Rights Are the Floor, Not the Ceiling
+## XI. No Mass Surveillance
+
+**AI shall not be deployed for mass, indiscriminate surveillance of populations. Targeted, lawful monitoring with judicial oversight is permissible; blanket surveillance that treats entire populations as suspects is not.**
+
+### Rationale
+
+AI dramatically lowers the cost of surveillance. What once required thousands of human analysts can now be done by a single system processing camera feeds, communications metadata, and behavioural patterns at national scale. This changes surveillance from a resource-constrained activity into a default capability - and the temptation for states and corporations to monitor everyone, just because they can, becomes almost irresistible. Mass surveillance chills free expression, suppresses dissent, and erodes the autonomy that defines a free society. This commandment draws a clear line: AI may assist targeted, judicially authorised monitoring; it may not enable the blanket watching of populations.
+
+### Hardest challenge
+
+The distinction between "targeted" and "mass" surveillance is contested. Governments will argue that broad data collection with narrow querying is not mass surveillance. The commandment's intent is clear - systems designed to monitor populations at scale, regardless of how the data is queried, fall on the wrong side of the line - but enforcement requires independent judicial and technical oversight that many jurisdictions lack.
+
+---
+
+## XII. Human Authority Over Life-Critical Decisions
+
+**No AI system shall autonomously make decisions that directly determine whether a human lives or dies. Fully autonomous lethal weapons systems are prohibited. Where AI operates in life-critical contexts that require split-second responses - such as autonomous vehicles or medical emergency systems - the ethical framework governing those decisions must be designed, validated, and regularly reviewed by humans.**
+
+### Rationale
+
+The decision to take or risk a human life is the most consequential decision that exists. Delegating that decision entirely to a machine - whether a weapons system that selects and engages targets without human approval, or any system that determines life-or-death outcomes without human-designed ethical constraints - removes moral accountability from the equation. Autonomous vehicles and emergency medical systems present a genuine edge case: they must sometimes make split-second decisions where human reaction time is insufficient. The commandment accommodates this by requiring that the ethical training and decision frameworks be human-designed and human-reviewed, even when the real-time execution is automated. The human is in the loop at the design and governance level, not necessarily at the millisecond of action.
+
+### Hardest challenge
+
+Military applications represent the sharpest tension. Fully autonomous weapons offer significant tactical advantages - faster response times, removal of human hesitation, reduced risk to one's own forces. Nations that adopt this prohibition face a potential disadvantage against those that do not. As with nuclear non-proliferation, enforcement requires international agreement and verification mechanisms. The autonomous vehicle case is also genuinely difficult: competing ethical frameworks (utilitarian, deontological, rights-based) will produce different outcomes in identical scenarios, and there is no consensus on which framework should govern.
+
+---
+
+## XIII. Human Rights Are the Floor, Not the Ceiling
 
 **No AI system shall be deployed in a manner that enables, accelerates, or obscures the violation of any right enshrined in the Universal Declaration of Human Rights. Capability is never justification.**
 
