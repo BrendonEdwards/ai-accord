@@ -12,23 +12,17 @@ A proposed cross-industry foundation for AI alignment — eleven principles that
 
 ## What is this?
 
-Artificial intelligence is advancing faster than the governance frameworks meant to contain it. Despite hundreds of corporate ethics statements, national strategies, and academic proposals, **there is no cross-industry consensus on AI alignment** — no shared set of non-negotiable principles that transcend company roadmaps, national interests, and ideological differences.
+Artificial intelligence is advancing faster than the institutions meant to govern it. Despite decades of research into AI safety and ethics, there is no cross-industry consensus on alignment — no shared set of principles that every organisation building or deploying AI has agreed to uphold. This absence of consensus is consistently cited as one of the most serious risks in AI safety: not that we lack good ideas, but that we lack a common foundation.
 
-This absence of consensus is widely cited as one of the most serious risks in AI safety. Without a common foundation, alignment becomes a competitive differentiator rather than a universal constraint, and the organisations with the most capability have the least external pressure to self-limit.
-
-The AI Accord is a proposed answer to that gap: a compact of eleven commandments — universal, binding in spirit, and designed for adoption by any entity that builds or deploys AI.
+The AI Accord is a proposal to fill that gap. It is a set of eleven commandments — universal principles designed to be adopted by any organisation, in any country, working with any AI architecture or commercial model. It is not a technical specification. It is not a regulation. It is a voluntary, cross-industry foundation for alignment — a starting point for shared commitment.
 
 ## Why commandments?
 
-The commandment format is a deliberate design choice. Each principle is an **outcome prohibition, not a method prescription**. They define what must not happen, not how systems must be built.
+The commandment format is deliberate. Each principle is an **outcome prohibition**, not a method prescription. They define what AI must not do, rather than how AI must be built. This distinction is critical: it sidesteps ideological, architectural, and jurisdictional differences that have historically prevented agreement. A company building large language models and a government deploying computer vision for infrastructure monitoring face very different technical constraints — but both can commit to not concentrating power, not deceiving users, and not enabling irreversible harm.
 
-This distinction matters. Method prescriptions fracture along ideological and architectural lines — what counts as "safe" depends on your threat model, your politics, and your engineering stack. Outcome prohibitions sidestep those differences. You can disagree about how to build AI and still agree that it must not concentrate power, deceive users, or enable irreversible harm without human authorisation.
+## The human rights anchor
 
-## Anchored in the Universal Declaration of Human Rights
-
-The AI Accord is grounded in the [Universal Declaration of Human Rights (1948)](https://www.un.org/en/about-us/universal-declaration-of-human-rights) — the most widely ratified statement of shared human values in history.
-
-AI creates new vectors for rights violations that the original declaration could not have anticipated: mass surveillance, algorithmic discrimination, autonomous weapons, synthetic media used to distort democratic processes. The Accord does not replace the UDHR — it extends it, filling the gaps that seventy-five years of technological change have opened.
+The AI Accord is grounded in the [Universal Declaration of Human Rights (1948)](https://www.un.org/en/about-us/universal-declaration-of-human-rights). The UDHR remains the most widely ratified statement of shared human values in history. But it was written before artificial intelligence existed. It could not anticipate mass algorithmic surveillance, autonomous weapons systems, synthetic media capable of undermining democratic processes, or the concentration of informational power in privately held AI systems. The AI Accord extends the UDHR into this new territory — treating AI as a new vector for rights violations that demands new protections, while never contradicting the rights already established.
 
 ## The Eleven Commandments
 
@@ -44,16 +38,20 @@ AI creates new vectors for rights violations that the original declaration could
 10. **The Compact Itself Shall Evolve**
 11. **Human Rights Are the Floor, Not the Ceiling**
 
-Read the full text of each commandment, including rationale and implementation notes, in [PRINCIPLES.md](PRINCIPLES.md).
+Read the full text of each commandment, including rationale and implementation challenges: **[PRINCIPLES.md](PRINCIPLES.md)**
 
-## Further Reading
+## Further reading
 
-- [PRINCIPLES.md](PRINCIPLES.md) — The full eleven commandments with rationale and implementation notes
-- [BACKGROUND.md](BACKGROUND.md) — The alignment landscape, historical precedents, and design philosophy
-- [CONTRIBUTING.md](CONTRIBUTING.md) — How to engage with, propose amendments to, and translate the Accord
+- **[PRINCIPLES.md](PRINCIPLES.md)** — The full eleven commandments with rationale and hardest-challenge notes
+- **[BACKGROUND.md](BACKGROUND.md)** — The alignment landscape, historical precedents, and the design philosophy behind the Accord
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to propose amendments, translations, and improvements
+
+## Versioning
+
+The current version is **v1.0**, dated 9 March 2026. Canonical versions are preserved in the [VERSIONS/](VERSIONS/) folder. See [Commandment X](PRINCIPLES.md#x-the-compact-itself-shall-evolve) for the revision philosophy.
 
 ## License
 
-This work is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). No rights reserved.
+This work is dedicated to the public domain under **[CC0 1.0 Universal](LICENSE)**. No rights reserved.
 
-This is intentional. The AI Accord is designed for zero-friction adoption by governments, NGOs, companies, and civil society organisations worldwide. No permission is needed to copy, translate, adapt, or incorporate these principles into any framework, policy, or product. The ideas belong to everyone.
+This is intentional. The AI Accord is designed for zero-friction adoption by governments, NGOs, companies, and civil society organisations worldwide. There are no restrictions on use, reproduction, modification, or distribution. If these principles are useful, they should spread without legal barriers.
