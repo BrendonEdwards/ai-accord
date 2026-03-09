@@ -2,22 +2,22 @@
 
 ## Philosophy
 
-The AI Accord is a living document. This is not an aspiration — it is a structural commitment, codified in Commandment X:
+The AI Accord is a living document. This is not an aspiration - it is a structural commitment, codified in Commandment X:
 
 > *These principles are not fixed. A standing, multinational, multi-stakeholder body shall review and revise them on a defined cycle, with representation from governments, civil society, affected communities, and the technical community equally weighted.*
 
-The Accord will only remain relevant if it evolves with the technology and the world it governs. Contributions are not just welcome — they are necessary.
+The Accord will only remain relevant if it evolves with the technology and the world it governs. Contributions are not just welcome - they are necessary.
 
 ## Who Can Contribute
 
 Everyone. The AI Accord is explicitly designed to reflect the broadest possible range of perspectives. Contributions are welcome from:
 
-- **Technologists** — engineers, researchers, and practitioners who understand how AI systems are built and where they fail
-- **Policymakers** — legislators, regulators, and government advisors who understand how frameworks become enforceable
-- **Ethicists and philosophers** — those who study the moral dimensions of technology and can identify principles that hold across cultures and traditions
-- **Lawyers** — those who understand how language becomes binding and where ambiguity creates loopholes
-- **Civil society organisations** — advocacy groups, NGOs, and community organisations that represent the people most affected by AI
-- **Affected communities** — anyone who lives with the consequences of AI deployment, whether or not they have technical expertise
+- **Technologists** - engineers, researchers, and practitioners who understand how AI systems are built and where they fail
+- **Policymakers** - legislators, regulators, and government advisors who understand how frameworks become enforceable
+- **Ethicists and philosophers** - those who study the moral dimensions of technology and can identify principles that hold across cultures and traditions
+- **Lawyers** - those who understand how language becomes binding and where ambiguity creates loopholes
+- **Civil society organisations** - advocacy groups, NGOs, and community organisations that represent the people most affected by AI
+- **Affected communities** - anyone who lives with the consequences of AI deployment, whether or not they have technical expertise
 
 No special credentials are required. If you have a perspective that the Accord does not yet reflect, that is precisely why your contribution matters.
 
@@ -31,7 +31,7 @@ To propose a change or addition to any commandment, open a GitHub issue with the
 
 2. **What problem does this solve?** Describe the gap, ambiguity, or failure mode in the current text. Be specific about what could go wrong under the existing language.
 
-3. **What failure mode does this prevent?** Explain the real-world scenario that your proposed change addresses. What would happen — or has already happened — that the current Accord does not adequately cover?
+3. **What failure mode does this prevent?** Explain the real-world scenario that your proposed change addresses. What would happen - or has already happened - that the current Accord does not adequately cover?
 
 4. **Historical or real-world examples.** Where possible, cite specific cases that illustrate the problem. Historical precedents, documented incidents, or plausible near-term scenarios all strengthen a proposal.
 
