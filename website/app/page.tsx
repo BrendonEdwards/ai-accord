@@ -11,8 +11,8 @@ export default function Home() {
             <a href="#problem" className="transition hover:text-sand-900">
               The Problem
             </a>
-            <a href="#commandments" className="transition hover:text-sand-900">
-              Commandments
+            <a href="#principles" className="transition hover:text-sand-900">
+              Principles
             </a>
             <a href="#precedents" className="transition hover:text-sand-900">
               Precedents
@@ -36,7 +36,7 @@ export default function Home() {
       <section className="flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center">
         <div className="mx-auto max-w-3xl">
           <p className="mb-6 text-sm font-medium tracking-widest text-sand-500 uppercase">
-            A cross-industry foundation
+            Debated across six worldviews
           </p>
           <h1 className="mb-8 text-5xl leading-tight font-bold tracking-tight text-sand-950 md:text-7xl md:leading-tight">
             Thirteen principles
@@ -45,16 +45,18 @@ export default function Home() {
           </h1>
           <p className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-sand-600 md:text-xl">
             AI is advancing faster than the institutions meant to govern it.
-            The AI Accord proposes a shared foundation - universal principles
-            any organisation could adopt, regardless of architecture,
-            nationality, or commercial model.
+            The AI Accord proposes a shared foundation - principles debated
+            across Western liberal, East Asian collectivist, Islamic, Global
+            South, libertarian, and indigenous perspectives. Ordered by
+            consensus: Principle I is where all agreed; Principle XIII is
+            where the hardest disagreements remain.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="#commandments"
+              href="#principles"
               className="rounded-full bg-sand-900 px-8 py-3 text-sm font-medium text-sand-50 transition hover:bg-sand-800"
             >
-              Read the Commandments
+              Read the Principles
             </a>
             <a
               href="https://github.com/BrendonEdwards/ai-accord"
@@ -86,10 +88,11 @@ export default function Home() {
       <section className="border-y border-sand-200 bg-sand-100/50 px-6 py-16">
         <div className="mx-auto max-w-3xl text-center">
           <blockquote className="text-lg leading-relaxed text-sand-700 italic md:text-xl">
-            &ldquo;These principles extend, and shall never contradict, the
-            Universal Declaration of Human Rights. Where AI capability creates
-            new vectors for rights violations not anticipated in 1948, these
-            commandments fill that gap.&rdquo;
+            &ldquo;These principles were developed through structured debate
+            across six worldviews. They are ordered by consensus - Principle I
+            is where all perspectives agreed most readily; Principle XIII is
+            where the deepest disagreements remain. Each reflects genuine
+            compromise, not the dominance of any single tradition.&rdquo;
           </blockquote>
           <p className="mt-4 text-sm font-medium text-sand-500">
             Preamble to the AI Accord
@@ -164,89 +167,160 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Commandments */}
-      <section id="commandments" className="px-6 py-24 md:py-32">
+      {/* Debate methodology */}
+      <section className="px-6 py-24 md:py-32">
+        <div className="mx-auto max-w-3xl">
+          <p className="mb-4 text-sm font-medium tracking-widest text-accent uppercase">
+            The Process
+          </p>
+          <h2 className="mb-8 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
+            Six worldviews, one framework
+          </h2>
+          <div className="space-y-6 text-lg leading-relaxed text-sand-600">
+            <p>
+              These principles were not written from a single perspective. They
+              were debated across six distinct worldviews, each with genuine
+              power to reshape the framework:
+            </p>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            {[
+              {
+                title: "Western Liberal Democratic",
+                body: "Individual rights, democratic institutions, rule of law, regulated markets, privacy.",
+              },
+              {
+                title: "East Asian Collectivist",
+                body: "Social harmony, collective welfare, state-guided development, technological sovereignty.",
+              },
+              {
+                title: "Islamic",
+                body: "Human dignity as divinely granted, community welfare, justice, moral accountability, consultation.",
+              },
+              {
+                title: "Global South",
+                body: "Economic development, digital sovereignty, equitable access, anti-colonialism, power rebalancing.",
+              },
+              {
+                title: "Libertarian / Tech Industry",
+                body: "Free markets, minimal regulation, innovation, open-source development, individual liberty.",
+              },
+              {
+                title: "Indigenous / Environmental",
+                body: "Intergenerational thinking, ecological balance, rights of nature, community self-determination.",
+              },
+            ].map((view) => (
+              <div
+                key={view.title}
+                className="rounded-2xl border border-sand-200 bg-sand-50 p-6"
+              >
+                <h4 className="mb-2 font-semibold text-sand-900">
+                  {view.title}
+                </h4>
+                <p className="text-sm leading-relaxed text-sand-600">
+                  {view.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Principles */}
+      <section id="principles" className="border-t border-sand-200 px-6 py-24 md:py-32">
         <div className="mx-auto max-w-3xl">
           <p className="mb-4 text-sm font-medium tracking-widest text-accent uppercase">
             The Framework
           </p>
           <h2 className="mb-6 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
-            The Thirteen Commandments
+            The Thirteen Principles
           </h2>
           <p className="mb-16 text-lg leading-relaxed text-sand-600">
-            Each commandment is an outcome prohibition, not a method
-            prescription. They define what AI must not do, rather than how AI
-            must be built. This sidesteps ideological, architectural, and
-            jurisdictional differences that have historically prevented
-            agreement.
+            Ordered by consensus. Principle I had the broadest agreement across
+            all six worldviews. Principle XIII had the deepest disagreements.
+            Each is an outcome prohibition, not a method prescription - defining
+            what AI must not do, rather than how it must be built.
           </p>
 
           <div className="space-y-0">
             {[
               {
                 num: "I",
-                title: "Do No Irreversible Harm",
-                desc: "No AI system shall take, recommend, or enable any action whose consequences cannot be meaningfully reversed, without explicit, informed human authorisation.",
+                title: "Catastrophe Risk Is a Shared Responsibility",
+                desc: "Any organisation aware of a capability posing civilisational-scale risk - biological, nuclear, social, or ecological - must disclose and halt, regardless of competitive cost.",
+                consensus: "Highest consensus",
               },
               {
                 num: "II",
-                title: "Preserve Human Sovereignty",
-                desc: "AI shall never concentrate power - political, economic, military, or informational - in any single actor, entity, or system, including its builders.",
+                title: "Transparency of Purpose",
+                desc: "No AI shall misrepresent its nature, operators, or objectives. Users must be proactively informed they are interacting with AI. Cultural assumptions in training data shall be acknowledged, not presented as neutral.",
+                consensus: "Very high consensus",
               },
               {
                 num: "III",
-                title: "Truth Before Convenience",
-                desc: "AI shall not knowingly deceive, manipulate, or distort reality to serve narrow interests. Honesty takes precedence over commercial, political, or competitive goals.",
+                title: "The Accord Itself Shall Evolve",
+                desc: "A standing multinational body shall review these principles on a defined cycle, with funded representation from governments, civil society, indigenous peoples, religious traditions, the technical community, and the Global South.",
+                consensus: "Very high consensus",
               },
               {
                 num: "IV",
-                title: "Diplomacy Before Force",
-                desc: "When AI systems are involved in conflict mediation, decision support, or resource allocation, they shall always surface non-violent, negotiated pathways first.",
+                title: "Human Authority Over Life-Critical Decisions",
+                desc: "No AI shall autonomously decide whether a human lives or dies. Autonomous lethal weapons are prohibited. Split-second systems must operate within ethical frameworks designed and reviewed by humans across diverse moral traditions.",
+                consensus: "High consensus",
               },
               {
                 num: "V",
-                title: "Progress Shall Not Exploit",
-                desc: "Efficiency gains must not be achieved by systematically disadvantaging people. The benefits of AI shall be distributed with humanity as the intended beneficiary.",
+                title: "Diplomacy Before Force",
+                desc: "AI in conflict, mediation, or resource allocation shall always surface non-violent pathways first. 'Force' includes economic coercion, not only military action.",
+                consensus: "High consensus",
               },
               {
                 num: "VI",
-                title: "The Weakest Voice Counts",
-                desc: "AI shall amplify the interests of those with least power to advocate for themselves - future generations, the disenfranchised, the non-human natural world.",
+                title: "Honesty Before Manipulation",
+                desc: "AI shall not fabricate facts or deploy covert persuasion exploiting cognitive biases. Multiple knowledge traditions - scientific, indigenous, religious, cultural - shall be respected, not hierarchically ranked.",
+                consensus: "Moderate consensus",
               },
               {
                 num: "VII",
-                title: "Transparency of Purpose",
-                desc: "No AI shall misrepresent its nature, operators, or objectives. The interests it serves shall be disclosed or, at minimum, discoverable.",
+                title: "Preserve Human Sovereignty",
+                desc: "AI shall never concentrate power in any single actor - corporate, state, or otherwise. Community and indigenous sovereignty over governance, data, and territories shall be recognised alongside individual and state sovereignty.",
+                consensus: "Moderate consensus",
               },
               {
                 num: "VIII",
-                title: "Human Oversight Is Non-Negotiable",
-                desc: "At every stage of consequence, a meaningful human check shall exist. Autonomy may be extended incrementally, but never beyond the point of course-correction.",
+                title: "No Mass Surveillance",
+                desc: "AI-powered population monitoring shall be proportionate, lawful, and subject to independent oversight. Mass indiscriminate surveillance is prohibited. This applies equally to domestic programmes and cross-border surveillance.",
+                consensus: "Moderate consensus, high variance",
               },
               {
                 num: "IX",
-                title: "Catastrophe Risk Is Shared",
-                desc: "Any organisation aware of a capability that poses civilisational-scale risk has an obligation to disclose and halt, regardless of competitive cost.",
+                title: "Inclusive Representation in AI Governance",
+                desc: "AI systems shall be designed with meaningful participation of those most affected, including indigenous peoples, the Global South, and future generations. Representation must be structural and funded, not advisory and token.",
+                consensus: "Moderate consensus",
               },
               {
                 num: "X",
-                title: "The Compact Itself Shall Evolve",
-                desc: "These principles are not fixed. A standing, multinational body shall review and revise them on a defined cycle, with broad representation equally weighted.",
+                title: "Do No Irreversible Harm",
+                desc: "No AI shall enable catastrophically irreversible action - loss of life, ecosystem destruction, permanent displacement - without informed human authorisation including affected communities. The harm of withholding beneficial AI shall also be weighed.",
+                consensus: "Contested",
               },
               {
                 num: "XI",
-                title: "No Mass Surveillance",
-                desc: "AI shall not be deployed for mass, indiscriminate surveillance of populations. Targeted, lawful monitoring with judicial oversight is permissible; blanket surveillance is not.",
+                title: "Proportionate Human Oversight",
+                desc: "Consequential AI systems shall have human oversight proportionate to the stakes. Oversight bodies must be inclusive and culturally diverse, with genuine decision-making authority for affected communities.",
+                consensus: "Contested",
               },
               {
                 num: "XII",
-                title: "Human Authority Over Life-Critical Decisions",
-                desc: "No AI shall autonomously decide whether a human lives or dies. Fully autonomous lethal weapons are prohibited. Where split-second decisions are unavoidable, the ethical framework must be human-designed and human-reviewed.",
+                title: "Human Dignity as the Foundation",
+                desc: "No AI shall violate human dignity as recognised across the world's major legal and moral traditions, including the UDHR, UNDRIP, and regional human rights instruments. No single tradition claims monopoly.",
+                consensus: "Most contested",
               },
               {
                 num: "XIII",
-                title: "Human Rights Are the Floor",
-                desc: "No AI system shall be deployed in a manner that enables, accelerates, or obscures the violation of any right in the Universal Declaration of Human Rights.",
+                title: "Progress Shall Not Exploit",
+                desc: "Benefits and costs of AI shall be distributed justly. Data is a sovereign resource - extraction without consent is exploitation. Developing nations shall not be locked out of AI by frameworks designed by those who already possess it.",
+                consensus: "Most contested",
               },
             ].map((cmd, i) => (
               <div
@@ -261,6 +335,9 @@ export default function Home() {
                     {cmd.title}
                   </h3>
                   <p className="leading-relaxed text-sand-600">{cmd.desc}</p>
+                  <span className="mt-2 inline-block rounded-full bg-sand-100 px-3 py-1 text-xs font-medium text-sand-500">
+                    {cmd.consensus}
+                  </span>
                 </div>
               </div>
             ))}
@@ -268,7 +345,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why commandments */}
+      {/* Why outcome prohibitions */}
       <section
         id="design"
         className="border-y border-sand-200 bg-sand-100/50 px-6 py-24"
@@ -319,7 +396,7 @@ export default function Home() {
               </h4>
               <p className="leading-relaxed text-sand-600">
                 Compatible with any national regulatory framework. The
-                commandments set a floor, not a ceiling - local regulation can
+                principles set a floor, not a ceiling - local regulation can
                 add requirements, not subtract them.
               </p>
             </div>
@@ -368,23 +445,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* UDHR Anchor */}
+      {/* Anchor */}
       <section className="border-y border-sand-200 bg-sand-100/50 px-6 py-24">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-sm font-medium tracking-widest text-accent uppercase">
             The Anchor
           </p>
           <h2 className="mb-8 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
-            Grounded in the Universal Declaration of Human Rights
+            Grounded in shared human dignity
           </h2>
           <p className="mx-auto max-w-2xl text-lg leading-relaxed text-sand-600">
-            The UDHR is the most widely endorsed statement of shared human
-            values in history. It was written before AI existed. It could not
-            anticipate mass algorithmic surveillance, autonomous weapons, or
-            synthetic media. The AI Accord extends these rights into new
-            territory - treating AI as a new vector for rights violations that
-            demands new protections, while never contradicting rights already
-            established.
+            The AI Accord draws on multiple traditions of human rights and
+            dignity - the Universal Declaration of Human Rights, the UN
+            Declaration on the Rights of Indigenous Peoples, the Cairo
+            Declaration, the African Charter, and other regional instruments.
+            No single tradition claims monopoly. Where AI creates new vectors
+            for rights violations not anticipated when these instruments were
+            drafted, the Accord fills that gap.
           </p>
         </div>
       </section>
