@@ -1,4 +1,6 @@
-# The AI Accord - Principles
+# The AI Accord - Principles (Draft v2.0)
+
+> **This is a working draft.** These principles are open for debate, amendment, and improvement. They represent a starting point, not a final word.
 
 > These principles were developed through structured negotiation across genuinely different political, cultural, and philosophical traditions. They are ordered by how quickly agreement was reached - Principle I is what everyone said yes to immediately; Principle XIII is where the deepest concessions were required. Each principle includes the compromise that made agreement possible.
 

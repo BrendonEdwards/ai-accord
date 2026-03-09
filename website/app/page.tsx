@@ -35,6 +35,9 @@ export default function Home() {
       {/* Hero */}
       <section className="flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center">
         <div className="mx-auto max-w-3xl">
+          <span className="mb-6 inline-block rounded-full border border-amber-300 bg-amber-50 px-4 py-1 text-xs font-semibold tracking-widest text-amber-700 uppercase">
+            Draft v2.0
+          </span>
           <p className="mb-6 text-sm font-medium tracking-widest text-sand-500 uppercase">
             A cross-industry foundation
           </p>
@@ -368,22 +371,59 @@ export default function Home() {
       </section>
 
       {/* Embedding */}
-      <section className="border-y border-sand-200 bg-sand-100/50 px-6 py-24">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="mb-4 text-sm font-medium tracking-widest text-accent uppercase">
-            Implementation
-          </p>
-          <h2 className="mb-8 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
-            Designed to be baked in
-          </h2>
-          <p className="mx-auto max-w-2xl text-lg leading-relaxed text-sand-600">
-            The AI Accord ships with ready-to-use files for embedding these
-            principles directly into AI systems. Add the CLAUDE.md to your
-            repository and the principles become operational constraints for
-            any AI agent working in your codebase. The same principles can be
-            adapted for system prompts, training objectives, and configuration
-            files across any AI platform.
-          </p>
+      <section id="embed" className="border-y border-sand-200 bg-sand-100/50 px-6 py-24">
+        <div className="mx-auto max-w-3xl">
+          <div className="text-center">
+            <p className="mb-4 text-sm font-medium tracking-widest text-accent uppercase">
+              Implementation
+            </p>
+            <h2 className="mb-8 text-3xl font-bold tracking-tight text-sand-950 md:text-4xl">
+              Designed to be baked in
+            </h2>
+            <p className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-sand-600">
+              Most AI ethics frameworks are documents that sit on a shelf. The AI
+              Accord ships as ready-to-use files you can drop into any repository
+              or system prompt. The principles become operational constraints for
+              AI systems working in your codebase.
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2">
+            <a
+              href="https://github.com/BrendonEdwards/ai-accord/blob/main/universal_principles.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl border border-sand-200 bg-sand-50 p-8 transition hover:border-sand-400"
+            >
+              <h4 className="mb-2 font-semibold text-sand-900 group-hover:text-sand-950">
+                universal_principles.md
+              </h4>
+              <p className="mb-4 text-sm leading-relaxed text-sand-600">
+                Platform-agnostic version. Works with any LLM or AI system -
+                embed in system prompts, training configs, or drop into any
+                repository.
+              </p>
+              <span className="text-sm font-medium text-accent">
+                View on GitHub &rarr;
+              </span>
+            </a>
+            <a
+              href="https://github.com/BrendonEdwards/ai-accord/blob/main/CLAUDE.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl border border-sand-200 bg-sand-50 p-8 transition hover:border-sand-400"
+            >
+              <h4 className="mb-2 font-semibold text-sand-900 group-hover:text-sand-950">
+                CLAUDE.md
+              </h4>
+              <p className="mb-4 text-sm leading-relaxed text-sand-600">
+                Drop into any repository to embed the principles as operational
+                constraints for Claude and Claude Code agents.
+              </p>
+              <span className="text-sm font-medium text-accent">
+                View on GitHub &rarr;
+              </span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -394,10 +434,9 @@ export default function Home() {
             The Accord is open
           </h2>
           <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-sand-600">
-            Published under CC0. No rights reserved. Designed for zero-friction
-            adoption by governments, NGOs, companies, and civil society
-            organisations worldwide. If these principles are useful, they should
-            spread without legal barriers.
+            Licensed under Apache 2.0. Designed for adoption by governments,
+            NGOs, companies, and civil society organisations worldwide. If
+            these principles are useful, they should spread.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -424,7 +463,7 @@ export default function Home() {
       <footer className="border-t border-sand-200 px-6 py-12">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-sand-500 md:flex-row">
           <p>
-            The AI Accord - CC0 1.0 Universal. No rights reserved.
+            The AI Accord - Draft v2.0 - Apache License 2.0
           </p>
           <div className="flex gap-6">
             <a
