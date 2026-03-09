@@ -2,7 +2,7 @@
 
 ## Philosophy
 
-The AI Accord is a living document. This is not an aspiration - it is a structural commitment, codified in Commandment X:
+The AI Accord is a living document. This is not an aspiration - it is a structural commitment, codified in Principle IX:
 
 > *These principles are not fixed. A standing, multinational, multi-stakeholder body shall review and revise them on a defined cycle, with representation from governments, civil society, affected communities, and the technical community equally weighted.*
 
@@ -25,9 +25,9 @@ No special credentials are required. If you have a perspective that the Accord d
 
 ### Open an Issue
 
-To propose a change or addition to any commandment, open a GitHub issue with the following structure:
+To propose a change or addition to any principle, open a GitHub issue with the following structure:
 
-1. **Which commandment(s) does this affect?** Identify the specific principle(s) you are addressing, or indicate if you are proposing a new commandment.
+1. **Which principle(s) does this affect?** Identify the specific principle(s) you are addressing, or indicate if you are proposing a new principle.
 
 2. **What problem does this solve?** Describe the gap, ambiguity, or failure mode in the current text. Be specific about what could go wrong under the existing language.
 
@@ -41,13 +41,13 @@ To propose a change or addition to any commandment, open a GitHub issue with the
 
 The AI Accord deals with questions that affect billions of people. Discussion should be substantive, respectful, and grounded in evidence. Specifically:
 
-- **Proposals should be concrete.** "This commandment should be stronger" is not actionable. "This commandment does not address the case where X happens because Y" is.
+- **Proposals should be concrete.** "This principle should be stronger" is not actionable. "This principle does not address the case where X happens because Y" is.
 - **Disagreement is expected and welcome.** The hardest questions in AI alignment are genuinely contested. Engage with opposing positions rather than dismissing them.
 - **Advocacy for specific interests is legitimate, but must be transparent.** If you represent an organisation or constituency, say so. The Accord is designed to balance competing interests, not to pretend they don't exist.
 
 ## Version History
 
-All versions of the AI Accord are preserved in the [`VERSIONS/`](VERSIONS/) folder. Each version is a standalone document that captures the commandments as they stood at the time of release.
+All versions of the AI Accord are preserved in the [`VERSIONS/`](VERSIONS/) folder. Each version is a standalone document that captures the principles as they stood at the time of release.
 
 - Version files are immutable once committed. They are the historical record of the Accord's evolution.
 - The current working text is always in [PRINCIPLES.md](PRINCIPLES.md).

@@ -60,25 +60,17 @@ AI creates new vectors for rights violations that the drafters of the UDHR could
 
 The UDHR was written for a world of human actors. AI extends the reach and speed of human action by orders of magnitude. The rights enshrined in 1948 are not wrong - they are incomplete. The AI Accord fills the gaps.
 
-## The Two Hardest Commandments
+## The Hardest Negotiations
 
-Two commandments stand out as the most politically difficult to implement.
+Two principles required the most significant concessions to achieve agreement.
 
-### Commandment II: Preserve Human Sovereignty
+### Principle XII: Equitable Access to Benefits
 
-*AI shall never concentrate power - political, economic, military, or informational - in any single actor, entity, or system, including the organisations that build or deploy it.*
+The tension between those who see redistribution obligations as essential justice and those who see them as economic overreach nearly prevented agreement. The compromise focuses on what the AI system itself does - it must not be configured to discriminate in its quality of service - while leaving broader questions of economic distribution to external policy.
 
-This commandment cuts directly against the interests of state-sponsored AI programmes, which often exist precisely to achieve strategic advantage - that is, to concentrate power. China's national AI strategy, the United States' investment in military AI, and similar programmes in Russia, Israel, the UK, and elsewhere are all predicated on the assumption that AI leadership confers decisive advantage.
+### Principle XIII: Pluralism of Values
 
-Commandment II says that decisive advantage is precisely the outcome to be prevented. It applies to states, to corporations, and to the AI systems themselves. This makes it politically explosive - and indispensable. History shows that unchecked concentration of power, by any actor, is the single most reliable precursor to systemic human rights violations.
-
-### Commandment IX: Catastrophe Risk Is a Shared Responsibility
-
-*Any organisation aware of a capability or deployment that poses civilisational-scale risk has an obligation to disclose and halt, regardless of competitive cost.*
-
-This commandment cuts directly against competitive incentives. It requires organisations to voluntarily sacrifice advantage - potentially existential commercial advantage - for collective safety. In a market economy, this is an extraordinary demand. It requires that the incentive to survive as a company be subordinated to the obligation to protect civilisation.
-
-Enforcement of Commandment IX is nearly impossible without a trusted, independent verification body - the IAEA analogue described above. Without such a body, the commandment relies on voluntary compliance, whistleblower protections, and the normative pressure created by the framework itself. These are not sufficient in the long term, but they are a necessary starting point.
+This principle nearly collapsed the negotiation entirely. Some argued it could be read to prohibit AI systems from affirming moral truths that their tradition considers universal. Others argued that without it, the accord would be an instrument of cultural imperialism. The resolution permits moral judgement while requiring humility about its source. No tradition is silenced; none is crowned.
 
 ## The Design Principle: Outcome Prohibitions, Not Method Prescriptions
 
@@ -90,4 +82,4 @@ The AI Accord is structured as a set of outcome prohibitions rather than method 
 
 This distinction is what makes the AI Accord viable as a cross-industry, cross-national framework. It does not require agreement on how to build safe AI. It requires agreement on what safe AI must not do. And that agreement, while difficult, is far more achievable than consensus on methods.
 
-The commandment format reinforces this design. Commandments are absolute within their domain - they do not say "try to avoid harm" or "consider the interests of the weakest." They say "do not" and "shall." This clarity is intentional. A framework built on aspirations is a framework that can be optimised around. A framework built on prohibitions creates a floor that cannot be negotiated away.
+The principle format reinforces this design. Principles are absolute within their domain - they do not say "try to avoid harm" or "consider the interests of the weakest." They say "do not" and "shall." This clarity is intentional. A framework built on aspirations is a framework that can be optimised around. A framework built on prohibitions creates a floor that cannot be negotiated away.
