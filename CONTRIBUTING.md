@@ -67,4 +67,4 @@ The AI Accord should be accessible in every language. If you would like to trans
 
 ## License
 
-By contributing to the AI Accord, you agree that your contributions are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). This ensures that the Accord remains freely available to everyone, everywhere, without restriction.
+By contributing to the AI Accord, you agree that your contributions are licensed under the [Apache License 2.0](LICENSE). This ensures that the Accord remains freely available to everyone, everywhere.

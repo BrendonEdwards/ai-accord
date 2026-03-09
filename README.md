@@ -1,4 +1,6 @@
-# The AI Accord
+# The AI Accord (Draft v2.0)
+
+**This is a working draft.** These principles are open for debate, amendment, and improvement.
 
 Thirteen principles for AI alignment - negotiated across genuinely different traditions, ordered by speed of agreement, and designed to be embedded directly into AI systems as operational constraints.
 
@@ -36,16 +38,18 @@ Read the full text of each principle, including the compromise that made agreeme
 
 ## Embedding the principles
 
-These principles are designed to be baked into AI systems, not just read by humans. The repository includes:
+These principles are designed to be baked into AI systems, not just read by humans. The repository includes ready-to-use files:
 
-- **[CLAUDE.md](CLAUDE.md)** - Drop this into any repository to embed the principles as operational constraints for AI agents working in your codebase
-- **[PRINCIPLES.md](PRINCIPLES.md)** - The full thirteen principles with rationale and compromise notes
+| File | Use case |
+|------|----------|
+| **[universal_principles.md](universal_principles.md)** | Platform-agnostic version for any AI system, system prompt, or training objective |
+| **[CLAUDE.md](CLAUDE.md)** | Drop into any repo to embed as constraints for Claude / Claude Code |
 
-The same principles can be adapted for system prompts, training objectives, and configuration files across any AI platform.
+The `universal_principles.md` can be used with any LLM or AI platform - rename it, adapt the format, or embed it directly into system prompts. The content is identical; only the filename differs.
 
 ## Further reading
 
-- **[PRINCIPLES.md](PRINCIPLES.md)** - The full thirteen principles
+- **[PRINCIPLES.md](PRINCIPLES.md)** - The full thirteen principles with rationale and compromise notes
 - **[BACKGROUND.md](BACKGROUND.md)** - The state of alignment, historical precedents, and design philosophy
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to propose amendments, translations, and improvements
 
@@ -61,10 +65,8 @@ npm run dev
 
 ## Versioning
 
-The current version is **v2.0**, dated 9 March 2026. The v1.0 principles are preserved in [VERSIONS/v1.0.md](VERSIONS/v1.0.md). See [Principle IX](PRINCIPLES.md#ix-the-accord-must-evolve) for the revision philosophy.
+The current version is **Draft v2.0**, dated 9 March 2026. The v1.0 principles are preserved in [VERSIONS/v1.0.md](VERSIONS/v1.0.md). See [Principle IX](PRINCIPLES.md#ix-the-accord-must-evolve) for the revision philosophy.
 
 ## License
 
-This work is dedicated to the public domain under **[CC0 1.0 Universal](LICENSE)**. No rights reserved.
-
-This is intentional. The AI Accord is designed for zero-friction adoption by governments, NGOs, companies, and civil society organisations worldwide. There are no restrictions on use, reproduction, modification, or distribution. If these principles are useful, they should spread without legal barriers.
+Licensed under **[Apache License 2.0](LICENSE)**. You are free to use, modify, and distribute these principles. If they are useful, they should spread.
