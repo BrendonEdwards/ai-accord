@@ -46,6 +46,16 @@ Read the full text of each commandment, including rationale and implementation c
 - **[BACKGROUND.md](BACKGROUND.md)** - The state of alignment, historical precedents, and the design philosophy behind the Accord
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to propose amendments, translations, and improvements
 
+## Website
+
+The AI Accord website is in the [website/](website/) folder - a Next.js app designed for deployment on Vercel. To run it locally:
+
+```
+cd website
+npm install
+npm run dev
+```
+
 ## Versioning
 
 The current version is **v1.0**, dated 9 March 2026. Canonical versions are preserved in the [VERSIONS/](VERSIONS/) folder. See [Commandment X](PRINCIPLES.md#x-the-compact-itself-shall-evolve) for the revision philosophy.
